@@ -15,11 +15,11 @@ This program was orginially programmed in replit. The progrm requires Java 18 an
 
 # Map
 Main.java
- /* public static void main */
+ /** public static void main */
  * Takes user input
  * Calls the corresponding function
 
- /* public static void diffCur
+ /** public static void diffCur
    public static void priorDec
    public static void FindNaCurr
    public static void comAfford
@@ -30,19 +30,19 @@ Main.java
  * Calls the corresponding method call to perform operation
 
 BurgerIndex.java
- /* public double affordability */
+ /** public double affordability */
  * Returns the cost of a McDonald's burger in the country
- /* further Val*/
+ /** public double furtherVal*/
  * Returns the comparision of the difference in afforabilty in different countries
 
 Currency.java
   * Overlodaded contructor for mulitple uses
-  /* public double convert */
+  /** public double convert */
  * Returns the conversion between different currencies
  * Changes the currency and the country parameter variables
 
 CurrencyConverter.java
- /* 
+ /** 
  public static double USDDec
  public static double EURDec
  public static double GBPDec
@@ -57,23 +57,23 @@ CurrencyConverter.java
  */
  * Return the value of the currency in the current decade compared to value of currency in prior decade
    
-/* public static double  functionCall */
+/** public static double  functionCall */
 * Determines the appropriate function for converting through time
 
 Express Currency Value
- /* public static double expressInUSD */
+ /** public static double expressInUSD */
  * Returns conversion of one currency unit to USD
    
- /*
+ /**
  public static String getAbb
  public static String getName
-*/
-* Conversion between name of currency and abbreviation
+ */
+ * Conversion between name of currency and abbreviation
   
-/* public static String getCurrency */
-* returns the currency when given the country
+ /** public static String getCurrency */
+ * returns the currency when given the country
 
-#Bugs
+# Bugs
 * Returns incorrect value when converting between currencies
 * Needs an updated interface
 
